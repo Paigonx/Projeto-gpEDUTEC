@@ -13,7 +13,7 @@ nav {
     position: fixed;
     display: flex;
     width: 100vw;
-    max-height: max-content;
+    margin-top: -33vh;
 }
 
 nav img {
