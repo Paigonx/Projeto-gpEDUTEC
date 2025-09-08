@@ -1,1 +1,251 @@
-/* Add styles here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    margin-top: -33vh;
+}
+
+nav img {
+    display: flex;
+    width: 100px;
+    margin-inline: 20px;
+}
+
+nav a:first-child {
+    margin-block: 0px;
+}
+nav a {
+    text-decoration: none;
+    margin-inline: 20px;
+    margin-block: 37px;
+    color: black;
+    font-size: 17px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+nav a:hover {
+    opacity: 70%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin-block: 50px;
+    margin-inline: 200px;
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+}
+
+main img {
+    width: 70vb;
+    margin-left: 13%;
+    border-radius: 50px;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px ;
+}
+
+.Produtos {
+    margin-top: 10px;
+}
+
+
+.Silksong p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    margin-top: -40vh;
+    margin-left: 50%;
+}
+
+
+.Silksong h3 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -65vh;
+    display: flex;
+    text-align: center;
+    margin-left: 70%;
+    position: absolute;
+    font-size: 40px;
+}
+.Silksong p:first-of-type {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    margin-top: -56vh;
+    margin-left: 70%;
+}
+
+.Hollow p:first-of-type {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    margin-top: -50vh;
+    margin-left: 70%;
+}
+
+.Hollow h3 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -57vh;
+    display: flex;
+    text-align: center;
+    margin-left: 70%;
+    position: absolute;
+    font-size: 40px;
+}
+
+
+.Hollow p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    margin-top: -35vh;
+    margin-left: 50%;
+}
+
+.Hollow h2 {
+    color: white;
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 40vh ;
+    text-align: center;
+    margin-bottom: 10px ;
+}
+
+.Cuphead h2 {
+    color: white;
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 35vh ;
+    text-align: center;
+    margin-bottom: 10px ;
+}
+
+.Cuphead p {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    margin-top: -40vh;
+    margin-left: 50%;
+}
+
+.Cuphead p:first-of-type {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    position: absolute;
+    margin-top: -50vh;
+    margin-left: 70%;
+}
+
+.Cuphead h3 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -58vh;
+    display: flex;
+    text-align: center;
+    margin-left: 70%;
+    position: absolute;
+    font-size: 40px;
+}
+
+.cup {
+    margin-bottom: 10vh;
+}
+
+.Lançamentos a {
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -7vh;
+    margin-left: 13.3vw;
+    display: flex;
+    text-align: left;
+    position: absolute;
+}
+
+.Lançamentos p {
+    margin-left: 13.3vw;
+    margin-top: 30vh;
+}
+
+strong {
+    font-weight: 500;
+}
