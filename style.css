@@ -10,10 +10,10 @@ body {
 
 nav {
     background-color: white;
-    position: fixed;
+    position: fixed; top: 0; left: 0; z-index: 2;
     display: flex;
-    width: 100vw;
-    margin-top: -33vh;
+    width: 100%;
+
 }
 
 nav img {
@@ -248,4 +248,14 @@ h2 {
 
 strong {
     font-weight: 500;
+}
+
+.Comprar {
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+    background-size: 10px;
+    z-index: 1;
+    display: flex;
+    position: absolute;
 }
